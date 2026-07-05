@@ -56,7 +56,6 @@ function DepartmentList() {
           </table>
         </div>
 
-        {/* RIGHT - Employee List */}
         {selectedDeptId && (
           <div style={{ flex: 1 }}>
             <EmployeeList departmentId={selectedDeptId} />
